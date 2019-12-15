@@ -1,6 +1,6 @@
 
 $('#myCarousel').carousel({
-  interval: 10000
+  interval: 1000
 })
 
 let navbar = document.querySelector(".navbar");
@@ -33,6 +33,9 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide (ev) {
 
     case 3:
       navbarText.innerHTML = "<h3>WANTED: NEBO, 48 ANS, WEB DEVELOPPEUR </h3>";
+    break;
+    case 4:
+      navbarText.innerHTML = "<h3>WANTED: MESSAOUDA, 37 ANS, WEB DEVELOPPEUR </h3>";
     break;
 
     default:
